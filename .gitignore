@@ -1,0 +1,19 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Generated calculation records; retain the required frozen input
+replication/*.json
+!replication/overlap_design.json
+
+# Generated figures and execution logs
+Pic*.png
+outputs/
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+*.swp
+*~
