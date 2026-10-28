@@ -1,0 +1,142 @@
+{
+  "scope": "Predeclared constructed extension beyond disjoint proportional recovery blocks; no empirical observations.",
+  "frozen_before_numerical_results": true,
+  "capacity": [
+    "0",
+    "1",
+    "1",
+    "1"
+  ],
+  "cost_support": [
+    "0",
+    "4"
+  ],
+  "cost_priors_beta": [
+    "1/2",
+    "1",
+    "2"
+  ],
+  "retention_target": "19/20",
+  "public_bundle_values": [
+    8,
+    10,
+    14
+  ],
+  "integration_cells": [
+    12,
+    24,
+    48
+  ],
+  "integration_rounding_denominator": 16777216,
+  "families": [
+    {
+      "id": "A",
+      "name": "Shared bottleneck with distinct tails",
+      "values": [
+        "20",
+        "H",
+        "H",
+        "H"
+      ],
+      "retained_applicants": [
+        0
+      ],
+      "recovery_profiles": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "2/3",
+          "1/3",
+          "0"
+        ],
+        [
+          "2/3",
+          "0",
+          "1/3"
+        ],
+        [
+          "2/3",
+          "1/6",
+          "1/6"
+        ]
+      ]
+    },
+    {
+      "id": "B",
+      "name": "Overlapping compatible pairs",
+      "values": [
+        "20",
+        "H",
+        "H",
+        "H"
+      ],
+      "retained_applicants": [
+        0
+      ],
+      "recovery_profiles": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "2/3",
+          "1/3",
+          "0"
+        ],
+        [
+          "1/3",
+          "2/3",
+          "0"
+        ],
+        [
+          "1/3",
+          "0",
+          "2/3"
+        ]
+      ]
+    },
+    {
+      "id": "C",
+      "name": "Two unit alternatives versus paired recovery",
+      "values": [
+        "12",
+        "12",
+        "H",
+        "H"
+      ],
+      "retained_applicants": [
+        0,
+        1
+      ],
+      "recovery_profiles": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "2/3",
+          "1/3",
+          "0"
+        ],
+        [
+          "1/3",
+          "2/3",
+          "0"
+        ]
+      ]
+    }
+  ],
+  "common_modes": "Each applicant has rejection and its one public certified served profile. Every served profile fully defers one reference unit from the zero-capacity stressed period, has exposure one and zero public cost.",
+  "menu_rule": "The smaller menu retains served unit profiles only; it does not create technically ineligible unit alternatives.",
+  "target_rule": "Apply 95% uniformly; refine 12 to 24 then 48 cells only for numerical ambiguity. Report all cases, including certification failure and unresolved intervals."
+}
